@@ -13,6 +13,7 @@ function EventItem(props) {
     year: "numeric",
   });
 
+  //* comma & white space replaced with a line break (\n)
   const formattedAddress = location.replace(", ", "\n");
 
   const exploreLink = `/events/${id}`;
